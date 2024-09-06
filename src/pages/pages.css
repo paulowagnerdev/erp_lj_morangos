@@ -1,0 +1,9 @@
+.page-header{
+    padding: 0px 5rem;
+    margin: 0px 2rem;
+    height: 65px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 3px solid #E1D7B7;
+}

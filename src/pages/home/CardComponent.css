@@ -1,0 +1,40 @@
+.card-component-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: #55679C;
+    padding: 0px 5px;
+    
+}
+
+#cardcomponent-title{
+    color: #1E2A5E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#cardcomponent-line{
+    margin: 10px 0px;
+    width: 100%;
+    height: 2px;
+    border: 1px solid #E1D7B7
+}
+
+.cardcomponent-number{
+    font-size: 15px;
+    color: #1E2A5E;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40px;
+    right: 40px;
+    width: 150px;
+    height: 150px;
+    border: 0.5px solid #CCC;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);
+}

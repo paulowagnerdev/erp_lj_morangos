@@ -1,0 +1,45 @@
+.Navbar{
+    width: 230px;
+    background-color: #1E2A5E;
+    position: absolute;
+    height: 100%;
+    transition: all 0.7s;
+    left: -100%;
+}
+
+.Navbar.active{
+    left: 0;
+}
+
+.logo{
+    text-align: center;
+    margin: 3rem;
+    padding: 0.2rem
+}
+
+.Navbar ul{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Navbar ul li{
+    padding: 0.2rem 15px;
+    
+}
+
+.Navbar ul li a{
+    transition: 0.2s;
+    display: flex;
+    padding: 7px 45px;
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+.Navbar ul li a:hover{
+    
+    background-color: #55679C;
+}
+
+

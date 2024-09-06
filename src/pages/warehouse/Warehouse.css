@@ -1,0 +1,35 @@
+.div-label-warehouse{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div-label-warehouse p{
+    padding: 15px;
+}
+
+#form-warehouse{
+    margin: 0 auto;
+    position: relative;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+#warehouse-button{
+    margin-top: 10px;
+}
+
+
+.warehouse-div{
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+}

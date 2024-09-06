@@ -1,0 +1,149 @@
+.div-main-sales{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+}
+
+#pageHeaderSales{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: start;
+    padding: 13px 75px;
+}
+
+#inputTextSales{
+    padding: 5px;
+    width: 300px;
+    height: 35px;
+    border: 0.2px solid #CCC;
+    border-radius: 3px;
+}
+
+
+/*-------------------------------------HEADER---------------------------------*/
+
+
+/*-------------------------------------MAIN---------------------------------*/
+
+
+.display-sales{
+    border: 7px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+}
+
+
+.div-list-container-sales{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    max-height: 60vb;
+}
+
+.sales{
+    border-top: 0.2px solid #CCC;
+    width: 90%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 13px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.sales:last-child{
+    border-bottom: 0.2px solid #CCC;
+}
+
+.sales:hover{
+    background-color: rgb(247, 245, 243);
+}
+
+
+/*-------------------------------------MAIN---------------------------------*/
+
+
+.button-plus{
+    position: absolute;
+    right: 35px;
+    bottom: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color:  #1E2A5E;
+}
+
+#span-client-exibe{
+    left: 107px;
+    top: 88px;
+    position: absolute;
+    z-index: 0;
+    font-size: 12px;
+}
+
+#span-info{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#clientes-form{
+    padding: 5px;
+    margin-top: 35px;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+form p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+.div-costomers-form{
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.div-costomers-form input{
+    height: 35px;
+    padding: 5px;
+}
+
+.div-costomers-form label{
+    margin-bottom: 5px;
+}
+
+.div-costomers-form-button{
+    position: absolute;
+    right: 758px;
+    margin-top: 5px;
+}
+
+#costomers-form-button{
+    height: 35px;
+    width: 75px;
+}
+
+#name{
+    padding: 15px;
+}
